@@ -50,7 +50,7 @@ navLinks.forEach(function (link) {
 function showLocationMessage() {
 
     alert(
-        "Google Maps location abhi add nahi ki gayi hai. Aap baad mein apni shop ka Maps link yahan add kar sakte hain."
+https://www.google.com/maps/dir//24.5434938,81.2968568/@24.5433831,81.2968186,21z?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D    );
     );
 
 }

@@ -9,6 +9,7 @@ const navbar =
     document.getElementById("navbar");
 
 
+// Mobile menu open / close
 menuBtn.addEventListener(
     "click",
     function () {
@@ -19,7 +20,9 @@ menuBtn.addEventListener(
 );
 
 
-// Close menu after clicking link
+// ==============================
+// CLOSE MENU AFTER CLICKING LINK
+// ==============================
 
 const navLinks =
     document.querySelectorAll(
@@ -49,8 +52,9 @@ navLinks.forEach(function (link) {
 
 function showLocationMessage() {
 
-    alert(
-https://www.google.com/maps/dir//24.5434938,81.2968568/@24.5433831,81.2968186,21z?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D    );
+    window.open(
+        "https://www.google.com/maps/dir//24.5434938,81.2968568/@24.5433831,81.2968186,21z?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+        "_blank"
     );
 
 }
@@ -95,6 +99,10 @@ const observer =
 
     );
 
+
+// ==============================
+// INITIAL CARD ANIMATION
+// ==============================
 
 cards.forEach(function (card) {
 
